@@ -1,0 +1,32 @@
+h1 {
+    background: darkred;
+    text-align: center;
+    color: white;
+}
+
+.silver {
+    background: silver;
+    padding: 15px;
+}
+
+.blue {
+    background: cornflowerblue;padding: 30px 0;
+}
+
+p {
+    margin: 0;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+}
+
+.green {
+    background: #6bb967;
+}
+
+.violet {
+    background: #8785aa;
+    border-radius: 20px;
+}

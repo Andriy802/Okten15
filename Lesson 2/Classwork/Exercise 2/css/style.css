@@ -1,0 +1,13 @@
+.silver_box {
+    width: 400px;
+    height: 200px;
+    background: #7f7f80;
+    margin: 50px 0 15px;
+    box-shadow: #af9258 -20px -20px 50px 10px;
+}
+
+p {
+    padding-left: 20px;
+    border-left: 4px solid red;
+    margin: 0;
+}

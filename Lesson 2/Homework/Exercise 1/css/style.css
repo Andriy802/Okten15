@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: #e1e1e1;
+    display: flex;
+    justify-content: center;
+}
+
+.main_box {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.orange_box {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A {
+    box-shadow: #4b4b4b 15px 15px 0 0;
+}
+
+.B {
+    box-shadow: #4b4b4b 15px 15px 5px 0;
+}
+
+.C {
+    box-shadow: #4b4b4b 15px 15px 5px 5px;
+}
+
+.D {
+    box-shadow: #9d9d9d 15px 15px 5px 5px;
+}
+
+.E {
+    box-shadow: #4b4b4b 15px 15px 5px 0;
+}
+
+.F {
+    box-shadow: #9d9d9d 15px 15px 5px 0;
+}
+
+.br_10 {
+    border-radius: 10px;
+}
