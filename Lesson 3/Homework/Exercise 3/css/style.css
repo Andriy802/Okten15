@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.widgets {
+    background: #2269ba;
+    height: 20vh;
+}
+
+.size_widgets {
+    background: #16457a;
+    width: 32%;
+}
+
+.contact {
+    background: #2269ba;
+    height: 55vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.content {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_center {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.size_widgets {
+    font-size: 20px;
+}

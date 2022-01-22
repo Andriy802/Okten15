@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.A {
+    height: 100px;
+    background: silver;
+    margin-bottom: 20px;
+}
+
+.B {
+    height: 650px;
+    width: 69%;
+    background: silver;
+}
+
+.C {
+    height: 650px;
+    width: 29%;
+    background: silver;
+}
+
+.BC {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

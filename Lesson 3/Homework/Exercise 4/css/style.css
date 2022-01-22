@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: #0f64a4;
+}
+
+.nav {
+    background: #124b78;
+}
+
+.content {
+    height: 55vh;
+    display: flex;
+}
+
+.main {
+    background: #16a1c4;
+    width: 70%;
+}
+
+.aside {
+    background: #5275ac;
+    width: 30%;
+}
+
+.footer {
+    background: #7dcbe2;
+}
+
+.txt_center {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.h_15 {
+    height: 15vh;
+}
