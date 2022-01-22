@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.a {
+    height: 32vh;
+    width: 100%;
+}
+
+.block {
+    width: 33%;
+    height: 32vh;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blocks {
+    width: 76%;
+    height: 66vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h {
+    width: 23%;
+    height: 66vh;
+}
+
+.txt_center {
+    font-size: 25px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

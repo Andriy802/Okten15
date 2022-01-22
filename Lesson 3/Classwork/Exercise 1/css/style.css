@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.a {
+    height: 32vh;
+    width: 100%;
+}
+
+.bcde_f {
+    height: 66vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b_cde {
+    width: 75%;
+    height: 66vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.f {
+    width: 23%;
+    height: 66vh;
+}
+
+.b {
+    width: 100%;
+    height: 32vh;
+}
+
+.c_d_e {
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.cde {
+    width: 32%;
+    height: 32vh;
+}
+
+.b_silver {
+    background: silver;
+}
+
+.txt_center {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

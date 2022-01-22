@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kabobs {
+    height: 25vh;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.w_49 {
+    width: 49%;
+    height: 49vh;
+}
+
+.blocks {
+    width: 33%;
+    height: 25vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bg_blue {
+    background: #2269ba;
+}
+
+.bg_darkblue {
+    background: #16457a;
+}
