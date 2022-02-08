@@ -48,7 +48,7 @@ console.log("Exercise 3");
 let test = (confirm() === true) ? ("Вірно") : ("Неправильно");
 console.log(test);
 
-let newTest = confirm()
+let newTest = confirm();
 if (newTest === true) {
     console.log("Вірно");
 } else {
