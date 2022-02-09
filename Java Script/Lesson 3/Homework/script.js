@@ -162,18 +162,20 @@ for (let i = 0; i < 100; i += 2) {
 console.log("______________");
 document.write("<hr>");
 
-let j = 0;
-while (j < 100) {
-    console.log(j);
-    document.write(`<p>${j}</p>`)
-    j += 2;
+for (let i = 0; i < 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+        document.write(`<p>${i}</p>`)
+    }
 }
 console.log("______________");
 document.write("<hr>");
 
-for (let i = 1; i <= 100; i += 2) {
-    console.log(i);
-    document.write(`<p>${i}</p>`)
+for (let i = 0; i < 100; i++) {
+    if (i % 2 === 1) {
+        console.log(i);
+        document.write(`<p>${i}</p>`)
+    }
 }
 console.log("______________");
 document.write("<hr>");
