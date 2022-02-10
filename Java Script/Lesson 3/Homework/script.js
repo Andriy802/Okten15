@@ -67,48 +67,48 @@ document.write("<hr>");
 console.log("Exercise 3");
 
 let arrNumbers = [80 , 81 , 82 , 83 , 84 , 85 , 86 , 87 , 88 , 89];
-for (let i = 0; i < arrNumbers.length ; i++) {
-    console.log(arrNumbers[i]);
+for (let elements of arrNumbers) {
+    console.log(elements);
 }
 
 console.log("______________");
 
 let arrString = ["Andriy" , "Maria" , "Svitlana" , "Oksana" , "Petro" , "Olia" , "Ania" , "Matviy" , "Max" , "Ihor"];
-for (let i = 0; i < arrString.length ; i++) {
-    console.log(arrString[i]);
+for (let elements of arrString) {
+    console.log(elements);
 }
 
 console.log("______________");
 
 let arrAny = ["Svitlana" , null , "Andriy" , 22 , false , undefined , "Matviy" , 2 , true ,"Petro"];
-for (let i = 0; i < arrAny.length ; i++) {
-    console.log(arrAny[i]);
+for (let elements of arrAny) {
+    console.log(elements);
 }
 
 console.log("______________");
 
 let arrAny1 = ["Svitlana" , 15 , "Andriy" , 22 , false , 42 , "Matviy" , 2 , true ,"Petro"];
-for (let i = 0; i < arrAny1.length ; i++) {
-    if (typeof arrAny1[i] === "boolean") {
-        console.log(arrAny1[i]);
+for (let elemets of arrAny1) {
+    if (typeof elemets === "boolean") {
+        console.log(elemets);
     }
 }
 
 console.log("______________");
 
 let arrAny2 = ["Svitlana" , 15 , "Andriy" , 22 , false , 42 , "Matviy" , 2 , true ,"Petro"];
-for (let i = 0; i < arrAny2.length ; i++) {
-    if (typeof arrAny2[i] === "number") {
-        console.log(arrAny2[i]);
+for (let elemets of arrAny2) {
+    if (typeof elemets === "number") {
+        console.log(elemets);
     }
 }
 
 console.log("______________");
 
 let arrAny3 = ["Svitlana" , 15 , "Andriy" , 22 , false , 42 , "Matviy" , 2 , true ,"Petro"];
-for (let i = 0; i < arrAny3.length ; i++) {
-    if (typeof arrAny3[i] === "string") {
-        console.log(arrAny3[i]);
+for (let elemets of arrAny3) {
+    if (typeof elemets === "string") {
+        console.log(elemets);
     }
 }
 
@@ -136,8 +136,8 @@ array2[7] = 8;
 array2[8] = "Beta";
 array2[9] = "Alfa";
 
-for (let i = 0; i < array2.length ; i++) {
-    console.log(array2[i]);
+for (let elements of array2) {
+    console.log(elements);
 }
 console.log("______________");
 
@@ -179,5 +179,3 @@ for (let i = 0; i < 100; i++) {
 }
 console.log("______________");
 document.write("<hr>");
-
-
