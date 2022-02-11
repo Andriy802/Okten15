@@ -26,7 +26,7 @@ console.log("______________");
 
 i = 0;
 while (i < arrNum.length) {
-    if (i % 2 === 1){
+    if (i % 2 === 1) {
         console.log(arrNum[i]);
     }
     i++;
@@ -37,7 +37,7 @@ console.log("______________");
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
 
 for (let i = 0; i < arrNum.length; i++) {
-    if (i % 2 === 1){
+    if (i % 2 === 1) {
         console.log(arrNum[i]);
     }
 }
@@ -111,7 +111,7 @@ console.log("______________");
 
 // 9.4
 for (let i = arrNum.length - 1; i >= 0; i--) {
-    if (i % 2 === 1){
+    if (i % 2 === 1) {
         console.log(arrNum[i]);
     }
 }
