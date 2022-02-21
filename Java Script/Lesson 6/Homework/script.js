@@ -102,11 +102,3 @@ let capitalize = (str) => {
     return arr.join(" ");
 };
 console.log(capitalize(str6));
-
-
-
-
-
-
-
-
